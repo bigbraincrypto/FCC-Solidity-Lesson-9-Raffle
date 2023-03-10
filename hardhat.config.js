@@ -9,8 +9,7 @@ require("dotenv").config()
 
 const GOERLI_RPC_URL =
   process.env.GOERLI_RPC_URL || "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
-const PRIVATE_KEY =
-  process.env.PRIVATE_KEY || "a3219fc349358c644e089cfeb76857badbb9a965e6654244e577944a371151a5"
+const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
 
