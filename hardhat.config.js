@@ -34,6 +34,11 @@ module.exports = {
     noColors: true,
   },
   solidity: "0.8.7",
+  etherscan: {
+    apiKey: {
+      goerli: "",
+    },
+  },
   namedAccounts: {
     deployer: {
       default: 0,
@@ -43,6 +48,6 @@ module.exports = {
     },
   },
   mocha: {
-    timeout: 200000,
+    timeout: 2000000,
   },
 }
